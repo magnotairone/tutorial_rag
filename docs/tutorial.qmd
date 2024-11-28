@@ -3,7 +3,7 @@ title: "Transforme seus PDFs em Chatbots"
 subtitle: "Um Guia Completo para RAG com R e Python"
 author: "Magno T. F. Severino"
 date: "11/30/2024"
-title-block-banner: "#2661A5"
+title-block-banner: "#460055"
 format: 
   html:
     theme: cerulean
@@ -28,23 +28,6 @@ editor:
   markdown: 
     wrap: sentence
 ---
-
-<!-- ```{=html} -->
-<!-- <style> body {text-align: justify} </style> -->
-<!-- ``` -->
-<!-- ::: {.content-visible when-format="html"} -->
-<!-- Organização e Apoio -->
-
-<!-- ![](img/organizacao.png) -->
-
-<!-- Patrocínio -->
-
-<!-- ![](img/patrocinio.png) -->
-<!-- ::: -->
-
-<!-- ::: {.content-visible when-format="pdf"} -->
-<!-- \pagebreak -->
-<!-- ::: -->
 
 ## Objetivo
 
@@ -643,8 +626,8 @@ Aqui escolhemos trabalhar com o modelo `"sabia-2-small"`, o que apresenta o melh
 
 ## Código Fonte
 
-O código fonte completo usado neste tutorial está disponível no diretório `codigos/` [neste repositório](https://github.com/magnotairone/tutorial_sinape_2024/tree/main/codigos) no GitHub. 
-Os slides usados durante a apresentação podem ser encontrados [neste link](https://magnotairone.github.io/tutorial_sinape_2024/slides#/title-slide).
+O código fonte completo usado neste tutorial está disponível no diretório `codigos/` [neste repositório](https://github.com/magnotairone/tutorial_rag/tree/main/codigos) no GitHub. 
+Os slides usados durante a apresentação podem ser encontrados [neste link](https://magnotairone.github.io/tutorial_rag/slides#/title-slide).
 
 ## Conclusão
 

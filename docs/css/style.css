@@ -20,3 +20,11 @@ pre.sourceCode {
 .code-with-filename .code-with-filename-file pre {
   background-color: initial;
 }
+
+h1 {
+  color: #ffffff; /* Cor do título principal (h1) */
+}
+
+h2 {
+  color: #460055; /* Cor do título secundário (h2) */
+}

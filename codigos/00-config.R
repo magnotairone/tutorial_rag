@@ -13,23 +13,13 @@ reticulate::virtualenv_create(envname = "rag",
                                 "pypdf",
                                 "pinecone",
                                 "langchain-pinecone",
-                                "langchain-openai"
+                                "pinecone-notebooks",
+                                "langchain-openai",
+                                "pinecone-client"
                               )
 )
 
-
-# reticulate::virtualenv_remove(envname = "rag", packages = "pinecone-client")
-# reticulate::virtualenv_install("rag", packages = c("pinecone-plugin-inference>=2.0.0,<4.0.0"))
-reticulate::virtualenv_install("rag", packages = c("langchain-pinecone",
-                                                   "pinecone-notebooks"))
-
-reticulate::virtualenv_install("rag", packages = c("langchain", 
-                                                   "langchain-pinecone", 
-                                                   "pinecone-client"), 
-                               ignore_installed = TRUE)
-
 reticulate::use_virtualenv("rag")
-
 
 reticulate::py_run_string('
 print("Estou programando em python dentro do R!") 
@@ -39,9 +29,10 @@ chave_api_openai <- Sys.getenv("OPENAI_API_KEY")
 chave_api_pinecone <- Sys.getenv("PINECONE_API_KEY")
 chave_api_maritaca <- Sys.getenv("MARITACAAI_API_KEY") # opcional
 
-if(!(dir.exists("docs"))) {
-  dir.create("docs")
+caminho_pasta = "codigos/docs"
+if(!(dir.exists(caminho_pasta))) {
+  dir.create(caminho_pasta)
 }
 
 download.file("https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf",
-              destfile = "docs/ggplot2.pdf", mode = "wb")
+              destfile = paste0(caminho_pasta, "/ggplot2.pdf"), mode = "wb")

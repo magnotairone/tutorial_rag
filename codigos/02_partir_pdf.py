@@ -2,7 +2,7 @@
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader('docs/ggplot2.pdf')
+loader = PyPDFLoader('codigos/docs/ggplot2.pdf')
 
 paginas = loader.load()
 print(type(paginas)) 
