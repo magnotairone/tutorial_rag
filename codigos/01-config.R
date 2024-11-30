@@ -1,5 +1,6 @@
 # Sys.setenv(`OPENAI_API_KEY`= "COLE SUA CHAVE AQUI")
 # Sys.setenv(`PINECONE_API_KEY`= "COLE SUA CHAVE AQUI")
+# Sys.setenv(`MARITACAAI_API_KEY`= "COLE SUA CHAVE AQUI") # opcional
 
 reticulate::use_python("C:/Users/m_tai/anaconda3/python.exe")
 Sys.setenv(WORKON_HOME = "C:/Users/m_tai/.virtualenvs")

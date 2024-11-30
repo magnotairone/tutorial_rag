@@ -19,7 +19,8 @@ prompt_contextualizacao = (
   "que pode referenciar o contexto no histórico do chat, "
   "formule uma pergunta independente que possa ser compreendida "
   "sem o histórico do chat. NÃO responda à pergunta, "
-  "apenas reformule-a se necessário e, caso contrário, retorne-a como está."
+  "apenas reformule-a se necessário e, caso contrário, retorne-a como está. "
+  "Traduza a pergunta independente para inglês."
 )
 
 prompt_template = ChatPromptTemplate.from_messages(

@@ -149,7 +149,9 @@ virtualenv_create(
     "pypdf",
     "pinecone",
     "langchain-pinecone",
-    "langchain-openai"
+    "pinecone-notebooks",
+    "langchain-openai",
+    "pinecone-client"
   )
 )
 
@@ -626,7 +628,7 @@ Aqui escolhemos trabalhar com o modelo `"sabia-2-small"`, o que apresenta o melh
 
 ## Código Fonte
 
-O código fonte completo usado neste tutorial está disponível no diretório `codigos/` [neste repositório](https://github.com/magnotairone/tutorial_rag/tree/main/codigos) no GitHub. 
+O código fonte completo usado neste tutorial está disponível no diretório `codigos/` [neste repositório](https://github.com/magnotairone/tutorial_rag) no GitHub. 
 Os slides usados durante a apresentação podem ser encontrados [neste link](https://magnotairone.github.io/tutorial_rag/slides#/title-slide).
 
 ## Conclusão

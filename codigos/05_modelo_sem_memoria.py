@@ -12,6 +12,7 @@ llm = ChatOpenAI(
 
 nome_indice = "rag-ggplot"
 embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
+
 base_conhecimento = PineconeVectorStore.from_existing_index(
     index_name = nome_indice,
     embedding = embeddings
@@ -23,7 +24,7 @@ qa = RetrievalQA.from_chain_type(
     retriever = base_conhecimento.as_retriever()  
 )
 
-pergunta = "Em um gráfico ggplot, como rotacionar o texto no eixo x?"
+pergunta = "Usando ggplot, como rotacionar o texto no eixo x de um gráfico?"
 resposta = qa.invoke(pergunta) 
 resposta["result"]
 

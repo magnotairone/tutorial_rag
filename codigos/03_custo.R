@@ -6,6 +6,7 @@ paginas_em_r[[1]]$metadata
 
 # quantidade de caracteres da centésima pagina
 nchar(paginas_em_r[[100]]$page_content) 
+paginas_em_r[[100]]$page_content
 
 partes_pdf <- reticulate::py$partes_pdf
 length(partes_pdf)

@@ -62,7 +62,7 @@ editor_options:
 - Exemplo:
 
 ```
-"Esta semana estou em Fortaleza para um evento científico. Me dê dicas do que fazer para aproveitar a cidade no fim do dia."
+"Faça um plano para eu aprender o básico de langchain durante 15 dias, considerando que vou estudar 45 minutos por dia."
 ```
 
 # Engenharia de Prompt
