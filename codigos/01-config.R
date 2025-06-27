@@ -1,3 +1,4 @@
+
 # Sys.setenv(`OPENAI_API_KEY`= "COLE SUA CHAVE AQUI")
 # Sys.setenv(`PINECONE_API_KEY`= "COLE SUA CHAVE AQUI")
 # Sys.setenv(`MARITACAAI_API_KEY`= "COLE SUA CHAVE AQUI") # opcional
